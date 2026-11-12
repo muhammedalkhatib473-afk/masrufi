@@ -1,0 +1,21 @@
+{
+  "id": "/",
+  "name": "Masroofi — Paranız, net bir şekilde",
+  "short_name": "Masroofi",
+  "description": "Cihazınızda saklanan, size özel bir kişisel finans takipçisi.",
+  "lang": "tr",
+  "dir": "ltr",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "display_override": ["standalone", "minimal-ui"],
+  "orientation": "portrait-primary",
+  "background_color": "#f6f5ef",
+  "theme_color": "#123d32",
+  "categories": ["finance", "utilities"],
+  "icons": [
+    { "src": "/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" },
+    { "src": "/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}
